@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.container1>div {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.menu a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: bold;
+}
+
+.usermenu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.usermenu img {
+    margin: 10px;
+}
+
+.searchbar {
+    text-align: center;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    width: 20%;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: bold;
+
+}
+
+.searchbar button {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: "Noto Sans Thai Looped", sans-serif;
+    font-weight: bold;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    gap: 10px;
+    padding: 80px;
+    justify-content: center;
+    position: relative;
+}
+
+.product-card {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5%;
+    padding: 1rem;
+
+    & a {
+        border: solid black;
+        border-radius: 15px;
+        margin: 0 0.5rem;
+        padding: 0 0.5rem;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-family: "Noto Sans Thai Looped", sans-serif;
+        margin-left: 145px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+}
+
+.product-img {
+    text-align: center;
+
+    & img {
+        width: 100%;
+        background-color: rgb(250, 249, 249);
+        border-radius: 5%;
+        width: 260px;
+        height: 260px;
+        object-fit: cover;
+    }
+}
+
+.product-info {
+    text-align: left;
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+
+.footer {
+    color: black;
+    background-color: rgb(184, 184, 184);
+    padding: 15px;
+    position: sticky;
+    top: 100%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+.container-cart {
+    display: grid;
+    grid-template-columns: 67% 33%;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 185px;
+    margin-right: 185px;
+    border: solid black;
+    border-radius: 10px;
+    display: grid;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.container-product {
+    border-right: solid black;
+}
+
+.container-product:last-child {
+    border-right: none;
+}
+
+.topic-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box-item {
+    text-align: center;
+
+    & img {
+        width: 100%;
+        background-color: rgb(250, 249, 249);
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.item-name {
+    text-align: center;
+}
+
+.item-price {
+    margin: 50px 0;
+}
+
+.item-amount {
+    margin: 50px 0;
+}
+
+.item-total {
+    margin: 50px 0;
+}
+
+.container-total {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    padding: 50px 30px;
+}
+
+.checkout-btn {
+    border-radius: 5%;
+    padding: 1rem;
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    & a:hover {
+        text-decoration: none;
+        color: rgb(235, 8, 8);
+        font-weight: bold;
+    }
+
+}
+
+.container-checkout {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+    padding: 10px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.checkout-address {
+    line-height: 30px;
+}

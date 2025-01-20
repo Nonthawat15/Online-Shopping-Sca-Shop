@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8f8f8;
+    font-family: "Noto Sans Thai Looped";
+
+    & p1 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+}
+
+.header {
+    width: 20%;
+    margin: 50px auto 0px;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    text-align: center;
+    border: 2px solid #000000;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+    & img {
+        width: 30%
+    }
+}
+
+form {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-top: none;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 400;
+}
+
+.homeheader {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.homecontent {
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #ccc;
+    height: 100vh;
+}
+
+.input-group {
+    margin: 10px 20px;
+    align-items: center;
+}
+
+.my-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.my-input {
+    background-color: rgb(241, 241, 241);
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group .my-input {
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.input-group input {
+    height: 30px;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background: #000000;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.already {
+    font-size: 14px;
+    text-align: right;
+    padding: 0 21px;
+
+    & p1 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+}
+
+.error {
+    width: 100;
+    margin: 20px;
+    padding: 5px 0;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
